@@ -1,6 +1,80 @@
 <!DOCTYPE html>
 <html>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+        @import url('fonts/Inter/inter.css');
+        @import url('fonts/kollektif/kollektif.css');
+
+        html, body{
+            background-color: #FEFBFA;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        header {
+            width: calc(100% - 40px - 40px);
+            height: calc(100px - 20px - 20px);
+            margin: 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+        }
+
+        h2.display {
+            font-family: Quicksand, sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 48px;
+            line-height: 60px;
+            color: #0A2E45;
+        }
+
+        h2.display a {
+            text-decoration: none;
+            color: #0A2E45;
+        }
+
+        h1:not(.display) {
+            font-family: Kollektif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 60px;
+            line-height: 60px;
+            color: #0A2E45;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 27px;
+            letter-spacing: -0.00011em;
+            color: #061732;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        article {
+            width: calc(100% * 1 / 2);
+            position: relative;
+            padding-top: calc(( 100vh / 4 ) - 100px);
+            padding-bottom: calc(( 100vh / 4 ) - 100px);
+            left: calc(100% / 4);
+        }
+    </style>
     <body>
-        <p>test umagos website hello</p>
+        <header>
+            <h2 class="display"><a href="#">umagos</a></h2>
+        </header>
+        <article>
+            <h1>Website under construction.</h1>
+            <p><br></p>
+            <p>Hello! Thanks for visiting the site! The software's not done yet, please check back later. In the meantime, you can watch my progress on the app and give feedback at <a href="https://twitter.com/eramne2">my twitter</a> or <a href="https://github.com/eramne">my github.</a></p>
+        </article>
     </body>
 </html>
